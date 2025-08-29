@@ -189,9 +189,9 @@ CSS Flexbox creates responsive layouts for images, text, and other content. Reus
 Use CSS box model to style image content. Adjust frame/filter class selector properties to customize. Copy, paste, rename class selector to quickly create alternative image stylings. */
 .frame {
     display: block;
-    background: blue;
+    background: rgb(255, 255, 255);
     padding: 5px;
-    border: 5px solid gold;
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 3%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -265,7 +265,7 @@ Add text to your image and control text-box location*/
 /*  - Parallax -
 This code controls that cool parallax image and scrolling effect. Change the image "parallax.jpg" below to match your asset.*/
 .parallax {
-    background-image: url("parallax.jpg");
+    background-image: url("horizon4.png");
 /* Set a specific height */
     height: 500px;
 /* control the parallax scrolling effect */
